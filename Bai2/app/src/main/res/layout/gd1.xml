@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="#AFBDE2"
+    android:padding="16dp">
+
+
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="left|center_vertical"
+        android:src="@drawable/songnhoque" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#2196F3"
+        android:textColor="#FF5722"
+        android:text="Mua Mí Sính"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#2196F3"
+        android:textColor="#FF5722"
+        android:textStyle="italic|bold"
+        android:layout_gravity="right|center_vertical"
+        android:text="0862425828"
+        android:textSize="20sp" />
+
+</FrameLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:columnCount="3" android:rowCount="6" android:padding="5dp" android:background="#0B0F29">
+
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#4A7BF7"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#4A7BF7"/>
+
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#4A7BF7"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowSpan="2" android:layout_columnSpan="2" android:layout_gravity="fill" android:layout_margin="5dp" android:background="#4A7BF7"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#4A7BF7"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#8CCF67"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#4A7BF7"/>
+    <View android:layout_width="0dp" android:layout_height="0dp" android:layout_rowWeight="1" android:layout_columnWeight="1" android:layout_margin="5dp" android:background="#4A7BF7"/>
+</GridLayout>

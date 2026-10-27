@@ -1,0 +1,169 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ANH NEN -->
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/tramchiu"
+        android:scaleType="centerCrop"
+        android:contentDescription="@null" />
+
+    <!-- LOP PHU TOI -->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#35000000" />
+
+    <!-- KHU VUC DANG NHAP -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <!-- VIEN NGOAI -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#99FFFFFF"
+                android:padding="1dp"
+                android:elevation="12dp">
+
+                <!-- KHUNG TRONG SUOT -->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:background="#88444A52"
+                    android:padding="18dp">
+
+                    <!-- TIEU DE -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Login"
+                        android:textSize="36sp"
+                        android:textStyle="bold"
+                        android:textColor="#FFFFFF"
+                        android:gravity="center"
+                        android:shadowColor="#99000000"
+                        android:shadowRadius="5"
+                        android:shadowDx="1"
+                        android:shadowDy="2" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="WELCOME BACK"
+                        android:textSize="12sp"
+                        android:textColor="#E0E0E0"
+                        android:letterSpacing="0.2"
+                        android:gravity="center"
+                        android:layout_marginBottom="28dp" />
+
+                    <!-- USERNAME -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="USERNAME"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="7dp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:background="#99FFFFFF"
+                        android:padding="1dp">
+
+                        <EditText
+                            android:id="@+id/edtUsername"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77404750"
+                            android:hint="Enter username"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#DDDDDD"
+                            android:textSize="15sp"
+                            android:inputType="text"
+                            android:singleLine="true"
+                            android:paddingStart="14dp"
+                            android:paddingEnd="14dp" />
+
+                    </FrameLayout>
+
+                    <!-- PASSWORD -->
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="PASSWORD"
+                        android:textColor="#FFFFFF"
+                        android:textSize="12sp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="20dp"
+                        android:layout_marginBottom="7dp" />
+
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="52dp"
+                        android:background="#99FFFFFF"
+                        android:padding="1dp">
+
+                        <EditText
+                            android:id="@+id/edtPassword"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="#77404750"
+                            android:hint="Enter password"
+                            android:textColor="#FFFFFF"
+                            android:textColorHint="#DDDDDD"
+                            android:textSize="15sp"
+                            android:inputType="textPassword"
+                            android:singleLine="true"
+                            android:paddingStart="14dp"
+                            android:paddingEnd="14dp" />
+
+                    </FrameLayout>
+
+                    <!-- NUT LOGIN -->
+                    <FrameLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="55dp"
+                        android:layout_marginTop="28dp"
+                        android:background="#789CFF"
+                        android:padding="2dp">
+
+                        <Button
+                            android:id="@+id/btnLogin"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:text="LOGIN"
+                            android:textAllCaps="false"
+                            android:textSize="16sp"
+                            android:textStyle="bold"
+                            android:textColor="#FFFFFF"
+                            android:backgroundTint="#20543B" />
+
+                    </FrameLayout>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>
